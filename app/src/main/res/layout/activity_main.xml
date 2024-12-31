@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageButton
+            android:id="@+id/imageButton00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_0_0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/round_x_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_0_1"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton02"
+            app:layout_constraintStart_toEndOf="@+id/imageButton00"
+            app:srcCompat="@drawable/round_x_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_0_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/round_x_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_1_0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/round_x_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_1_1"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton02"
+            app:layout_constraintStart_toEndOf="@+id/imageButton00"
+            app:srcCompat="@drawable/round_x_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_1_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/round_x_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_2_0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/round_x_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_2_1"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton02"
+            app:layout_constraintStart_toEndOf="@+id/imageButton00"
+            app:srcCompat="@drawable/round_x_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_2_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/round_x_24" />
+
+    </LinearLayout>
+
+</LinearLayout>

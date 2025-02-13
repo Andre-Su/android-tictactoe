@@ -1,12 +1,9 @@
 <resources>
     <string name="app_name">TicTacToe</string>
-    <string name="button_0_2">0 2 Pad</string>
-    <string name="button_0_1">0 1 Pad</string>
-    <string name="button_0_0">0 0 Pad</string>
-    <string name="button_1_2">1 2 Pad</string>
-    <string name="button_1_1">1 1 Pad</string>
-    <string name="button_1_0">1 0 Pad</string>
-    <string name="button_2_2">2 2 Pad</string>
-    <string name="button_2_1">2 1 Pad</string>
-    <string name="button_2_0">2 0 Pad</string>
+    <string name="btn_start_game">Start Game</string>
+    <string name="btn_restart_game">Restart</string>
+    <string name="txt_message_press_to_start">Press to start</string>
+    <string name="txt_message_game_started">Game started!</string>
+    <string name="txt_message_x_turn">X turn</string>
+    <string name="txt_message_o_turn">O turn</string>
 </resources>

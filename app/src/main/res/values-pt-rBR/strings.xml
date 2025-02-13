@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jogo da Velha</string>
+    <string name="btn_start_game">Iniciar Jogo</string>
+    <string name="btn_restart_game">Reiniciar Jogo</string>
+    <string name="txt_message_press_to_start">Aperte para começar</string>
+    <string name="txt_message_game_started">Jogo iniciado!</string>
+    <string name="txt_message_x_turn">Vez de X</string>
+    <string name="txt_message_o_turn">Vez de O</string>
+</resources>

@@ -7,4 +7,16 @@
     <string name="txt_message_game_started">Jogo iniciado!</string>
     <string name="txt_message_x_turn">Vez de X</string>
     <string name="txt_message_o_turn">Vez de O</string>
+    <string name="txt_message_x_wins">X ganhou!</string>
+    <string name="txt_message_o_wins">O ganhou!</string>
+    <string name="txt_message_draw">Empate!</string>
+    <string name="tile_00">tecla 0 0</string>
+    <string name="tile_01">tecla 0 1</string>
+    <string name="tile_02">tecla 0 2</string>
+    <string name="tile_10">tecla 1 0</string>
+    <string name="tile_11">tecla 1 1</string>
+    <string name="tile_12">tecla 1 2</string>
+    <string name="tile_20">tecla 2 0</string>
+    <string name="tile_21">tecla 2 1</string>
+    <string name="tile_22">tecla 2 2</string>
 </resources>

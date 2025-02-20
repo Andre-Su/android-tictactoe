@@ -6,4 +6,16 @@
     <string name="txt_message_game_started">Game started!</string>
     <string name="txt_message_x_turn">X turn</string>
     <string name="txt_message_o_turn">O turn</string>
+    <string name="txt_message_x_wins">X wins!</string>
+    <string name="txt_message_o_wins">O wins!</string>
+    <string name="txt_message_draw">Draw!</string>
+    <string name="tile_00">tile 0 0</string>
+    <string name="tile_01">tile 0 1</string>
+    <string name="tile_02">tile 0 2</string>
+    <string name="tile_10">tile 1 0</string>
+    <string name="tile_11">tile 1 1</string>
+    <string name="tile_12">tile 1 2</string>
+    <string name="tile_20">tile 2 0</string>
+    <string name="tile_21">tile 2 1</string>
+    <string name="tile_22">tile 2 2</string>
 </resources>

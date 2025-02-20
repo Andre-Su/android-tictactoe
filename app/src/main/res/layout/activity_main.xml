@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_gravity="center_vertical"
+        android:layout_gravity="center"
         android:padding="16dp">
 
         <!-- Barra de título -->
@@ -23,20 +23,83 @@
             android:theme="@style/MaterialAlertDialog.Material3.Title.Text"
             android:padding="16dp"/>
 
-        <!-- Fragmento para o Grid -->
-        <FrameLayout
-            android:id="@+id/fragment_container_grid"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"/>
 
-        <!-- Fragmento para o Menu -->
-        <FrameLayout
-            android:id="@+id/fragment_container_menu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:padding="8dp">
 
+            <!-- Linha 1 -->
+            <Button
+                android:id="@+id/btn_00"
+                android:contentDescription="@string/tile_00"
+                style="@style/GridButton" />
+            <Button
+                android:id="@+id/btn_01"
+                android:contentDescription="@string/tile_01"
+                style="@style/GridButton" />
+            <Button
+                android:id="@+id/btn_02"
+                android:contentDescription="@string/tile_02"
+                style="@style/GridButton" />
+
+            <!-- Linha 2 -->
+            <Button
+                android:id="@+id/btn_10"
+                android:contentDescription="@string/tile_10"
+                style="@style/GridButton" />
+            <Button
+                android:id="@+id/btn_11"
+                android:contentDescription="@string/tile_11"
+                style="@style/GridButton" />
+            <Button
+                android:id="@+id/btn_12"
+                android:contentDescription="@string/tile_12"
+                style="@style/GridButton" />
+
+            <!-- Linha 3 -->
+            <Button
+                android:id="@+id/btn_20"
+                android:contentDescription="@string/tile_20"
+                style="@style/GridButton" />
+            <Button
+                android:id="@+id/btn_21"
+                android:contentDescription="@string/tile_21"
+                style="@style/GridButton" />
+            <Button
+                android:id="@+id/btn_22"
+                android:contentDescription="@string/tile_22"
+                style="@style/GridButton" />
+
+        </GridLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_message_press_to_start" />
+
+            <Button
+                android:id="@+id/btnStartGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_start_game" />
+
+            <Button
+                android:id="@+id/btnRestartGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_restart_game"
+                android:visibility="gone"/>
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
